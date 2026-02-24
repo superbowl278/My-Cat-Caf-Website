@@ -265,3 +265,55 @@ th {
         padding: 20px;
     }
 }
+/* ===== PHONE PERFECT FIX ===== */
+@media (max-width: 768px) {
+
+    body {
+        background: #f0626e;
+    }
+
+    /* HERO меньше и компактнее */
+    .hero {
+        padding: 50px 20px;
+        height: auto;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .hero button {
+        padding: 10px 22px;
+        font-size: 14px;
+    }
+
+    /* Коты крупнее и без огромной высоты */
+    .catss {
+        height: auto;
+        padding: 30px 10px;
+        gap: 20px;
+    }
+
+    .catss .cat {
+        width: 70px;
+        height: 70px;
+        margin: 0;
+    }
+
+    /* Убираем огромный пустой розовый низ */
+    body {
+        min-height: auto;
+    }
+
+    /* Меню компактнее */
+    nav {
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 14px;
+        padding: 15px 10px;
+    }
+}
