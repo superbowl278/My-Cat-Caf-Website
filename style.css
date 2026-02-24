@@ -317,3 +317,83 @@ th {
         padding: 15px 10px;
     }
 }
+/* ===== MOBILE VERSION ===== */
+@media (max-width: 768px) {
+
+    /* NAV */
+    nav {
+        flex-wrap: wrap;
+        gap: 15px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* HERO */
+    .hero {
+        padding: 60px 20px;
+        height: auto;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero button {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    /* CATS ROW */
+    .catss {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 30px 10px;
+        gap: 20px;
+    }
+
+    .catss .cat {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* ABOUT TEXT */
+    .about-box {
+        padding: 0 15px;
+    }
+
+    .about-box p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* TABLE (MENU) */
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    /* RESERVATION */
+    .selectdiv {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    select, .submit {
+        width: 80%;
+    }
+
+    /* CONTACT */
+    .coment {
+        width: 90%;
+    }
+
+}
