@@ -53,6 +53,22 @@ nav a {
     cursor: pointer;
 }
 
+/* CATS PREVIEW */
+.catss {
+    background: #a87c5a;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.cat {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
 
 .beige { background-image: url("https://i.postimg.cc/Fzm1FpwJ/Untitled-design-(7).png"); }
 .pink { background-image: url("https://i.postimg.cc/02PJ95sq/Untitled-design-(3).png"); }
@@ -73,7 +89,7 @@ nav a {
 /* ABOUT */
 .about {
     background: #f6f0e6;
-    padding: 20px 20px;   /* было 60 → стало 20 */
+    padding: 60px 20px;
     display: flex;
     justify-content: center;
 }
@@ -94,7 +110,23 @@ nav a {
 }
 
 /* CATS SECTION */
+.cats {
+    background: #f6f0e6;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
 
+.cat .leo,
+.cat .mochi,
+.cat .milo,
+.cat .luna {
+    margin-top: 210px;
+    font-size: 14px;
+    color: #5a4632;
+}
 
 /* MENU TABLE */
 .men {
@@ -156,41 +188,4 @@ th {
     border: 1px solid #ccc;
     cursor: pointer;
 }
-/* ===== CATS BLOCK ===== */
-
-.cats {
-    background: #f6f0e6;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding: 20px 40px;
-    margin-top: -120px;   /* ← СИЛЬНЕЕ ВВЕРХ */
-    flex-wrap: wrap;
-}
-
-/* карточка кота */
-.cat {
-    width: 220px;
-    height: 320px;
-    background-size: cover;
-    background-position: top;
-    border-radius: 20px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; /* текст внизу */
-    align-items: center;
-
-    padding: 15px;
-}
-
-/* текст кота */
-.cat div {
-    font-size: 14px;
-    color: #5a4632;
-    text-align: center;
-    line-height: 1.5;
-    min-height: 95px;   /* выравнивает котов */
-}
-
 
