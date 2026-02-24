@@ -192,6 +192,19 @@ th {
     line-height: 1.5;
     min-height: 95px;   /* выравнивает котов */
 }
-body {
-    background: black !important;
+/* ===== FIX CATS ROW ===== */
+
+.cats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    background: #f6f0e6;
+    padding: 40px;
 }
+
+.cats .cat {
+    width: 220px;
+    height: 320px;
+}
+
