@@ -130,13 +130,207 @@ nav a {
 
 /* MENU TABLE */
 .men {
-    background: #f6f0e6;
-    padding: 40px;
+    background-color:#f6f0e6;
+    padding: 60px 20px;
 }
 
 table {
     width: 100%;
+    margin-top: 30px;
     border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background: #6b4f3f;
+    color: white;
+}
+
+/* RESERVATION */
+.selectdiv {
+    background: #f6f0e6;
+    padding: 30px;
+    text-align: center;
+}
+
+.select, .submit {
+    padding: 8px 12px;
+    margin: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* CONTACT */
+.cont {
+    background: #f6f0e6;
+    text-align: center;
+    padding: 30px;
+}
+
+.label-text {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.coment {
+    width: 60%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.sub {
+    margin-top: 15px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Arial Rounded MT Bold", sans-serif;
+}
+
+/* BODY */
+.ratata {
+    background: #f0626e;
+}
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    background: #f6f0e6;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5a4632;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    background: #f6f0e6;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #5a4632;
+}
+
+.hero p {
+    margin: 15px 0;
+    color: #6b5642;
+}
+
+.hero button {
+    background: #f0626e;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* CATS PREVIEW */
+.catss {
+    background: #a87c5a;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.cat {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.beige { background-image: url("https://i.postimg.cc/Fzm1FpwJ/Untitled-design-(7).png"); }
+.pink { background-image: url("https://i.postimg.cc/02PJ95sq/Untitled-design-(3).png"); }
+.orange { background-image: url("https://i.postimg.cc/QM9FfHpp/Untitled-design-(5).png"); }
+.purple { background-image: url("https://i.postimg.cc/NMR5wSCt/Untitled-design-(6).png"); }
+
+/* SECTION TITLE */
+.fond {
+    background: #f6f0e6;
+    text-align: center;
+    padding: 20px;
+}
+
+.i {
+    color: #5a4632;
+}
+
+/* ABOUT */
+.about {
+    background: #f6f0e6;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-box {
+    max-width: 700px;
+    text-align: center;
+}
+
+.about-box h2 {
+    color: #5c4033;
+    margin-bottom: 15px;
+}
+
+.about-box p {
+    color: #6b4f3f;
+    line-height: 1.7;
+}
+
+/* CATS SECTION */
+.cats {
+    background: #f6f0e6;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.cat .leo,
+.cat .mochi,
+.cat .milo,
+.cat .luna {
+    margin-top: 210px;
+    font-size: 14px;
+    color: #5a4632;
+}
+
+/* MENU TABLE */
+.men {
+    background-color:#f6f0e6;
+    padding: 60px 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    background: white;
 }
 
 th, td {
