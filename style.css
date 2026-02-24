@@ -632,3 +632,31 @@ table {
         font-size: 12px;
     }
 }
+/* ===== HARD FIX: table не залезает вверх ===== */
+
+/* убираем любые сдвиги */
+.men, table, thead, tbody, tr, th, td {
+    position: static !important;
+    transform: none !important;
+}
+
+/* нормальный поток блоков */
+.cats {
+    margin-bottom: 60px !important;
+}
+
+.men {
+    margin-top: 60px !important;
+    clear: both;
+}
+
+/* таблица ниже, без наложения */
+table {
+    margin-top: 20px !important;
+}
+
+/* убираем фиксированные высоты (главная причина бага) */
+.catss, .cats, .men {
+    height: auto !important;
+    min-height: auto !important;
+}
