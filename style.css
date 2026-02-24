@@ -73,7 +73,7 @@ nav a {
 /* ABOUT */
 .about {
     background: #f6f0e6;
-    padding: 60px 20px;
+    padding: 20px 20px;   /* было 60 → стало 20 */
     display: flex;
     justify-content: center;
 }
@@ -164,7 +164,7 @@ th {
     justify-content: center;
     gap: 40px;
     padding: 20px 40px;
-    margin-top: -60px;   /* поднимает котов ВЫШЕ — меняй -40 / -80 */
+    margin-top: -120px;   /* ← СИЛЬНЕЕ ВВЕРХ */
     flex-wrap: wrap;
 }
 
@@ -192,19 +192,5 @@ th {
     line-height: 1.5;
     min-height: 95px;   /* выравнивает котов */
 }
-/* ===== FIX CATS ROW ===== */
 
-.cats {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    background: #f6f0e6;
-    padding: 40px;
-}
-
-.cats .cat {
-    width: 220px;
-    height: 320px;
-}
 
