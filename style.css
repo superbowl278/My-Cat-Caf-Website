@@ -7,7 +7,7 @@
 }
 
 /* BODY */
-body {
+.ratata {
     background: #f0626e;
 }
 
@@ -15,7 +15,7 @@ body {
 nav {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     padding: 20px;
     background: #f6f0e6;
 }
@@ -23,6 +23,7 @@ nav {
 nav a {
     text-decoration: none;
     color: #5a4632;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -52,7 +53,7 @@ nav a {
     cursor: pointer;
 }
 
-/* CAT PREVIEW ROW */
+/* CATS PREVIEW */
 .catss {
     background: #a87c5a;
     display: flex;
@@ -78,7 +79,10 @@ nav a {
 .fond {
     background: #f6f0e6;
     text-align: center;
-    padding: 25px;
+    padding: 20px;
+}
+
+.i {
     color: #5a4632;
 }
 
@@ -95,9 +99,14 @@ nav a {
     text-align: center;
 }
 
+.about-box h2 {
+    color: #5c4033;
+    margin-bottom: 15px;
+}
+
 .about-box p {
-    line-height: 1.7;
     color: #6b4f3f;
+    line-height: 1.7;
 }
 
 /* CATS SECTION */
@@ -119,16 +128,15 @@ nav a {
     color: #5a4632;
 }
 
-/* MENU */
+/* MENU TABLE */
 .men {
     background: #f6f0e6;
-    padding: 60px 20px;
+    padding: 40px;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    background: white;
 }
 
 th, td {
@@ -162,6 +170,11 @@ th {
     padding: 30px;
 }
 
+.label-text {
+    margin-bottom: 10px;
+    display: block;
+}
+
 .coment {
     width: 60%;
     padding: 10px;
@@ -174,51 +187,4 @@ th {
     border-radius: 6px;
     border: 1px solid #ccc;
     cursor: pointer;
-}
-
-/* MOBILE */
-@media (max-width: 768px) {
-
-    nav {
-        flex-wrap: wrap;
-        gap: 15px;
-        font-size: 14px;
-    }
-
-    .hero {
-        padding: 60px 20px;
-    }
-
-    .hero h1 {
-        font-size: 30px;
-    }
-
-    .catss {
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-
-    .catss .cat {
-        width: 80px;
-        height: 80px;
-    }
-
-    .cats {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .cats .cat {
-        width: 90%;
-        max-width: 320px;
-        height: auto;
-    }
-
-    table {
-        font-size: 12px;
-    }
-
-    .coment {
-        width: 90%;
-    }
 }
