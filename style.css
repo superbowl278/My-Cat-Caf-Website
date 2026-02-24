@@ -188,3 +188,80 @@ th {
     border: 1px solid #ccc;
     cursor: pointer;
 }
+/* ===== MOBILE VERSION ===== */
+@media (max-width: 768px) {
+
+    /* Меню в колонку */
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    /* Hero */
+    .hero {
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    /* Коты */
+    .catss, .cats {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        height: auto;
+    }
+
+    .cat {
+        width: 90%;
+        max-width: 300px;
+        height: 300px;
+    }
+
+    /* Таблица → в колонку */
+    table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+    }
+
+    th {
+        background: #6b4f3f;
+        color: white;
+        padding: 10px;
+    }
+
+    td {
+        border: none;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+    }
+
+    /* Форма */
+    .selectdiv, .cont {
+        padding: 20px;
+        text-align: center;
+    }
+
+    textarea {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    /* About */
+    .about-box {
+        padding: 20px;
+    }
+}
