@@ -591,3 +591,44 @@ th {
     }
 
 }
+/* ===== FIX OVERLAP (меню не залезает на котов) ===== */
+
+.cats {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px;
+}
+
+.men {
+    position: relative;
+    z-index: 2;
+    margin-top: 40px;
+}
+
+/* убираем фиксированную высоту, из-за неё всё ломалось */
+.catss,
+.cats,
+.men {
+    height: auto !important;
+}
+
+/* таблица всегда ниже */
+table {
+    margin-top: 20px;
+}
+
+/* ===== MOBILE FIX (чтобы не наезжало на телефоне) ===== */
+@media (max-width: 768px) {
+
+    .cats {
+        margin-bottom: 20px;
+    }
+
+    .men {
+        margin-top: 20px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}
