@@ -1,4 +1,5 @@
-/* RESET */
+
+/* ===== RESET ===== */
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +7,12 @@
     font-family: "Comic Sans MS", "Arial Rounded MT Bold", sans-serif;
 }
 
-/* BODY */
-.ratata {
+/* ===== BODY ===== */
+body {
     background: #f0626e;
 }
 
-/* NAV */
+/* ===== NAVIGATION ===== */
 nav {
     display: flex;
     justify-content: center;
@@ -27,7 +28,7 @@ nav a {
     font-weight: bold;
 }
 
-/* HERO */
+/* ===== HERO ===== */
 .hero {
     background: #f6f0e6;
     text-align: center;
@@ -53,7 +54,7 @@ nav a {
     cursor: pointer;
 }
 
-/* CATS PREVIEW */
+/* ===== CATS PREVIEW (INDEX) ===== */
 .catss {
     background: #a87c5a;
     display: flex;
@@ -62,7 +63,7 @@ nav a {
     padding: 40px;
 }
 
-.cat {
+.catss .cat {
     width: 200px;
     height: 200px;
     background-size: cover;
@@ -70,12 +71,7 @@ nav a {
     border-radius: 20px;
 }
 
-.beige { background-image: url("https://i.postimg.cc/Fzm1FpwJ/Untitled-design-(7).png"); }
-.pink { background-image: url("https://i.postimg.cc/02PJ95sq/Untitled-design-(3).png"); }
-.orange { background-image: url("https://i.postimg.cc/QM9FfHpp/Untitled-design-(5).png"); }
-.purple { background-image: url("https://i.postimg.cc/NMR5wSCt/Untitled-design-(6).png"); }
-
-/* TITLE */
+/* ===== SECTION TITLE ===== */
 .fond {
     background: #f6f0e6;
     text-align: center;
@@ -86,7 +82,7 @@ nav a {
     color: #5a4632;
 }
 
-/* ABOUT */
+/* ===== ABOUT ===== */
 .about {
     background: #f6f0e6;
     padding: 60px 20px;
@@ -109,26 +105,55 @@ nav a {
     line-height: 1.7;
 }
 
-/* CATS SECTION */
+/* ===== CATS PAGE ===== */
 .cats {
     background: #f6f0e6;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    align-items: flex-start;
+    gap: 40px;
     padding: 40px;
     flex-wrap: wrap;
 }
 
-.cat .leo,
-.cat .mochi,
-.cat .milo,
-.cat .luna {
-    margin-top: 210px;
-    font-size: 14px;
-    color: #5a4632;
+.cats .cat {
+    width: 220px;
+    min-height: 260px;
+    background-size: cover;
+    background-position: top;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
 }
 
-/* MENU */
+.cats .cat div {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #5a4632;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* ===== CAT IMAGES ===== */
+.beige {
+    background-image: url("https://i.postimg.cc/Fzm1FpwJ/Untitled-design-(7).png");
+}
+
+.pink {
+    background-image: url("https://i.postimg.cc/02PJ95sq/Untitled-design-(3).png");
+}
+
+.orange {
+    background-image: url("https://i.postimg.cc/QM9FfHpp/Untitled-design-(5).png");
+}
+
+.purple {
+    background-image: url("https://i.postimg.cc/NMR5wSCt/Untitled-design-(6).png");
+}
+
+/* ===== MENU ===== */
 .men {
     background: #f6f0e6;
     padding: 40px;
@@ -137,6 +162,7 @@ nav a {
 table {
     width: 100%;
     border-collapse: collapse;
+    background: white;
 }
 
 th, td {
@@ -149,7 +175,7 @@ th {
     color: white;
 }
 
-/* RESERVATION */
+/* ===== RESERVATION ===== */
 .selectdiv {
     background: #f6f0e6;
     padding: 30px;
@@ -163,7 +189,7 @@ th {
     border: 1px solid #ccc;
 }
 
-/* CONTACT */
+/* ===== CONTACT ===== */
 .cont {
     background: #f6f0e6;
     text-align: center;
