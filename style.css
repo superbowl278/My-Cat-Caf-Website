@@ -7,7 +7,7 @@
 }
 
 /* BODY */
-.ratata {
+body {
     background: #f0626e;
 }
 
@@ -15,7 +15,7 @@
 nav {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
     padding: 20px;
     background: #f6f0e6;
 }
@@ -23,7 +23,6 @@ nav {
 nav a {
     text-decoration: none;
     color: #5a4632;
-    font-size: 16px;
     font-weight: bold;
 }
 
@@ -53,7 +52,7 @@ nav a {
     cursor: pointer;
 }
 
-/* CATS PREVIEW */
+/* CAT PREVIEW ROW */
 .catss {
     background: #a87c5a;
     display: flex;
@@ -79,10 +78,7 @@ nav a {
 .fond {
     background: #f6f0e6;
     text-align: center;
-    padding: 20px;
-}
-
-.i {
+    padding: 25px;
     color: #5a4632;
 }
 
@@ -99,14 +95,9 @@ nav a {
     text-align: center;
 }
 
-.about-box h2 {
-    color: #5c4033;
-    margin-bottom: 15px;
-}
-
 .about-box p {
-    color: #6b4f3f;
     line-height: 1.7;
+    color: #6b4f3f;
 }
 
 /* CATS SECTION */
@@ -128,15 +119,14 @@ nav a {
     color: #5a4632;
 }
 
-/* MENU TABLE */
+/* MENU */
 .men {
-    background-color:#f6f0e6;
+    background: #f6f0e6;
     padding: 60px 20px;
 }
 
 table {
     width: 100%;
-    margin-top: 30px;
     border-collapse: collapse;
     background: white;
 }
@@ -172,11 +162,6 @@ th {
     padding: 30px;
 }
 
-.label-text {
-    margin-bottom: 10px;
-    display: block;
-}
-
 .coment {
     width: 60%;
     padding: 10px;
@@ -190,363 +175,27 @@ th {
     border: 1px solid #ccc;
     cursor: pointer;
 }
-/* RESET */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Comic Sans MS", "Arial Rounded MT Bold", sans-serif;
-}
 
-/* BODY */
-.ratata {
-    background: #f0626e;
-}
-
-/* NAVIGATION */
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    padding: 20px;
-    background: #f6f0e6;
-}
-
-nav a {
-    text-decoration: none;
-    color: #5a4632;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-/* HERO */
-.hero {
-    background: #f6f0e6;
-    text-align: center;
-    padding: 100px 20px;
-}
-
-.hero h1 {
-    font-size: 48px;
-    color: #5a4632;
-}
-
-.hero p {
-    margin: 15px 0;
-    color: #6b5642;
-}
-
-.hero button {
-    background: #f0626e;
-    border: none;
-    color: white;
-    padding: 12px 28px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-/* CATS PREVIEW */
-.catss {
-    background: #a87c5a;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 40px;
-}
-
-.cat {
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-}
-
-.beige { background-image: url("https://i.postimg.cc/Fzm1FpwJ/Untitled-design-(7).png"); }
-.pink { background-image: url("https://i.postimg.cc/02PJ95sq/Untitled-design-(3).png"); }
-.orange { background-image: url("https://i.postimg.cc/QM9FfHpp/Untitled-design-(5).png"); }
-.purple { background-image: url("https://i.postimg.cc/NMR5wSCt/Untitled-design-(6).png"); }
-
-/* SECTION TITLE */
-.fond {
-    background: #f6f0e6;
-    text-align: center;
-    padding: 20px;
-}
-
-.i {
-    color: #5a4632;
-}
-
-/* ABOUT */
-.about {
-    background: #f6f0e6;
-    padding: 60px 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.about-box {
-    max-width: 700px;
-    text-align: center;
-}
-
-.about-box h2 {
-    color: #5c4033;
-    margin-bottom: 15px;
-}
-
-.about-box p {
-    color: #6b4f3f;
-    line-height: 1.7;
-}
-
-/* CATS SECTION */
-.cats {
-    background: #f6f0e6;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 40px;
-    flex-wrap: wrap;
-}
-
-.cat .leo,
-.cat .mochi,
-.cat .milo,
-.cat .luna {
-    margin-top: 210px;
-    font-size: 14px;
-    color: #5a4632;
-}
-
-/* MENU TABLE */
-.men {
-    background-color:#f6f0e6;
-    padding: 60px 20px;
-}
-
-table {
-    width: 100%;
-    margin-top: 30px;
-    border-collapse: collapse;
-    background: white;
-}
-
-th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-th {
-    background: #6b4f3f;
-    color: white;
-}
-
-/* RESERVATION */
-.selectdiv {
-    background: #f6f0e6;
-    padding: 30px;
-    text-align: center;
-}
-
-.select, .submit {
-    padding: 8px 12px;
-    margin: 10px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-}
-
-/* CONTACT */
-.cont {
-    background: #f6f0e6;
-    text-align: center;
-    padding: 30px;
-}
-
-.label-text {
-    margin-bottom: 10px;
-    display: block;
-}
-
-.coment {
-    width: 60%;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-.sub {
-    margin-top: 15px;
-    padding: 8px 20px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    cursor: pointer;
-}
-/* ===== MOBILE VERSION ===== */
+/* MOBILE */
 @media (max-width: 768px) {
 
-    /* Меню в колонку */
-    nav {
-        flex-direction: column;
-        gap: 15px;
-        padding: 20px;
-        text-align: center;
-    }
-
-    nav a {
-        font-size: 18px;
-    }
-
-    /* Hero */
-    .hero {
-        height: auto;
-        padding: 60px 20px;
-    }
-
-    .hero h1 {
-        font-size: 32px;
-    }
-
-    .hero p {
-        font-size: 16px;
-    }
-
-    /* Коты */
-    .catss, .cats {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        height: auto;
-    }
-
-    .cat {
-        width: 90%;
-        max-width: 300px;
-        height: 300px;
-    }
-
-    /* Таблица → в колонку */
-    table, thead, tbody, th, td, tr {
-        display: block;
-        width: 100%;
-    }
-
-    th {
-        background: #6b4f3f;
-        color: white;
-        padding: 10px;
-    }
-
-    td {
-        border: none;
-        border-bottom: 1px solid #ccc;
-        padding: 10px;
-    }
-
-    /* Форма */
-    .selectdiv, .cont {
-        padding: 20px;
-        text-align: center;
-    }
-
-    textarea {
-        width: 90%;
-        max-width: 400px;
-    }
-
-    /* About */
-    .about-box {
-        padding: 20px;
-    }
-}
-/* ===== PHONE PERFECT FIX ===== */
-@media (max-width: 768px) {
-
-    body {
-        background: #f0626e;
-    }
-
-    /* HERO меньше и компактнее */
-    .hero {
-        padding: 50px 20px;
-        height: auto;
-    }
-
-    .hero h1 {
-        font-size: 28px;
-    }
-
-    .hero p {
-        font-size: 15px;
-    }
-
-    .hero button {
-        padding: 10px 22px;
-        font-size: 14px;
-    }
-
-    /* Коты крупнее и без огромной высоты */
-    .catss {
-        height: auto;
-        padding: 30px 10px;
-        gap: 20px;
-    }
-
-    .catss .cat {
-        width: 70px;
-        height: 70px;
-        margin: 0;
-    }
-
-    /* Убираем огромный пустой розовый низ */
-    body {
-        min-height: auto;
-    }
-
-    /* Меню компактнее */
-    nav {
-        flex-wrap: wrap;
-        gap: 10px;
-        font-size: 14px;
-        padding: 15px 10px;
-    }
-}
-/* ===== MOBILE VERSION ===== */
-@media (max-width: 768px) {
-
-    /* NAV */
     nav {
         flex-wrap: wrap;
         gap: 15px;
         font-size: 14px;
-        text-align: center;
     }
 
-    /* HERO */
     .hero {
         padding: 60px 20px;
-        height: auto;
     }
 
     .hero h1 {
-        font-size: 32px;
+        font-size: 30px;
     }
 
-    .hero p {
-        font-size: 16px;
-    }
-
-    .hero button {
-        padding: 12px 24px;
-        font-size: 14px;
-    }
-
-    /* CATS ROW */
     .catss {
         flex-wrap: wrap;
-        height: auto;
-        padding: 30px 10px;
-        gap: 20px;
+        gap: 15px;
     }
 
     .catss .cat {
@@ -554,109 +203,22 @@ th {
         height: 80px;
     }
 
-    /* ABOUT TEXT */
-    .about-box {
-        padding: 0 15px;
-    }
-
-    .about-box p {
-        font-size: 14px;
-        line-height: 1.6;
-    }
-
-    /* TABLE (MENU) */
-    table {
-        font-size: 12px;
-    }
-
-    th, td {
-        padding: 6px;
-    }
-
-    /* RESERVATION */
-    .selectdiv {
-        display: flex;
+    .cats {
         flex-direction: column;
-        gap: 10px;
         align-items: center;
     }
 
-    select, .submit {
-        width: 80%;
-    }
-
-    /* CONTACT */
-    .coment {
+    .cats .cat {
         width: 90%;
-    }
-
-}
-/* ===== FIX OVERLAP (меню не залезает на котов) ===== */
-
-.cats {
-    position: relative;
-    z-index: 1;
-    margin-bottom: 40px;
-}
-
-.men {
-    position: relative;
-    z-index: 2;
-    margin-top: 40px;
-}
-
-/* убираем фиксированную высоту, из-за неё всё ломалось */
-.catss,
-.cats,
-.men {
-    height: auto !important;
-}
-
-/* таблица всегда ниже */
-table {
-    margin-top: 20px;
-}
-
-/* ===== MOBILE FIX (чтобы не наезжало на телефоне) ===== */
-@media (max-width: 768px) {
-
-    .cats {
-        margin-bottom: 20px;
-    }
-
-    .men {
-        margin-top: 20px;
+        max-width: 320px;
+        height: auto;
     }
 
     table {
         font-size: 12px;
     }
-}
-/* ===== HARD FIX: table не залезает вверх ===== */
 
-/* убираем любые сдвиги */
-.men, table, thead, tbody, tr, th, td {
-    position: static !important;
-    transform: none !important;
-}
-
-/* нормальный поток блоков */
-.cats {
-    margin-bottom: 60px !important;
-}
-
-.men {
-    margin-top: 60px !important;
-    clear: both;
-}
-
-/* таблица ниже, без наложения */
-table {
-    margin-top: 20px !important;
-}
-
-/* убираем фиксированные высоты (главная причина бага) */
-.catss, .cats, .men {
-    height: auto !important;
-    min-height: auto !important;
+    .coment {
+        width: 90%;
+    }
 }
